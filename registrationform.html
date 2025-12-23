@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration </title>
+</head>
+<body>
+    <center>
+        <form action="/server">
+
+        <h2>Student registration Form</h2>
+        <label for="name">Username: </label>
+        <input type="text" placeholder="enter your name" id="name">
+        <br><br>
+        <label for="mail">Email: </label>
+        <input type="email" placeholder="enter your email" id="mail">
+        <br>
+        <br>
+        <label for="gen">gender:</label>
+        <input type="radio" name="gender" value="male" id="gen">male
+        <input type="radio" name="gender" value="female" id="gen">female
+        <br><br>
+        <label for="num">Moble number</label>
+        <input type="tel"  id="num" placeholder="enter your name" maxlength="10">
+        <label for="pass">Password:</label>
+        <input type="password" placeholder="enter your password" id="pass"><br><br>
+        <label for="date">DOB</label>
+        <input type="date" placeholder="select your date of birth" id="date"><br><br>
+        <label for="up">Upload</label>
+        <input type="file">
+        <br><br>
+        <label for="cou">select your country</label>
+        <select name="cou" id="cou">
+            <option value="aus">Aus</option>
+            <option value="ind">ind</option>
+            <option value="usa">usa</option>
+            <option value="NZ">NZ</option>
+            <option value="Eng">eng</option>
+        </select>
+        <br><br>
+        <button>Submit</button>
+        <button type="reset">reset</button>
+
+
+
+
+
+        </form>
+
+
+
+    </center>
+    
+</body>
+</html>
